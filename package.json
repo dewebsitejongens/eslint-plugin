@@ -1,0 +1,62 @@
+{
+  "name": "@dewebsitejongens/eslint-plugin",
+  "version": "0.1.0",
+  "description": "De Website Jongens ESLint plugin.",
+  "authors": [
+    {
+      "name": "Nick Vlug",
+      "email": "nick@dewebsitejongens.nl"
+    }
+  ],
+  "license": "GPL-3.0",
+  "keywords": [
+    "websitejongens",
+    "dewebsitejongens",
+    "eslint",
+    "eslint-plugin"
+  ],
+  "homepage": "https://github.com/dewebsitejongens/eslint-plugin/tree/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dewebsitejongens/eslint-plugin.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dewebsitejongens/eslint-plugin/issues"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.1",
+    "@typescript-eslint/parser": "^4.29.1",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-import": "^2.24.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "eslint-plugin-react-native": "^3.11.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "eslint-plugin-sonarjs": "^0.9.1"
+  },
+  "peerDependencies": {
+    "eslint": ">=7.32.0",
+    "typescript": ">=4.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  },
+  "engines": {
+    "node": ">=14",
+    "yarn": ">=1.22"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "configs",
+    "rules",
+    "index.js"
+  ],
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
